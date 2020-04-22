@@ -214,7 +214,6 @@ cd ..\training\
 cd ejs-challenge\
 ls
 npm install
-git status
 git commit -m "fin 307"
 npm i lodash
 git commit -m "fin 321"
@@ -222,4 +221,16 @@ git commit -m "fin 323"
 git push
 git init
 nodemon app.js 
+git commit -m "fin ejs project"
+cd ~
+touch .bash_profile
+code .bash_profile 
+alias mongod="/c/Program\ files/MongoDB/Server/4.2/bin/mongod.exe"
+alias mongo="/c/Program\ Files/MongoDB/Server/4.2/bin/mongo.exe"
+alias mongod="C:\Program Files\MongoDB\Server\4.2\bin\mongod.exe"
+alias mongo="C:\Program Files\MongoDB\Server\4.2\bin\mongo.exe"
+mongo --version
+mongod
+mongo
+git status
 git add .
