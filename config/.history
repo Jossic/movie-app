@@ -1,0 +1,225 @@
+run Code.exe
+code.exe
+clear
+cls
+gem install sass
+sass
+gem
+git
+sass C:\wamp64\www\SCSS\design\sass\default.scss C:\wamp64\www\SCSS\design\css\default.css
+sass --watch C:\wamp64\www\SCSS\design\sass:C:\wamp64\www\SCSS\design\css
+cd c/
+cd c:\
+dir c:
+cd c:
+ls c:
+ls c:\
+cd c:\wamp64
+cmde
+cmd
+cd wamp64\
+cd Bootstrap\
+cd sass\
+npm install bootstrap --save
+sass --watch default.scss default.css
+sass --watch default.scss:default.css
+git --version
+git init training
+git add
+git commit -m "Premier commit
+git remote add origin https://github.com/Jossic/training.git
+git commit -m 'Ajout README'
+git commit -m "Ajout README"
+cd Projets\
+git config --global user.name "Jossic"
+git config --global user.email "jossic.lapierre@gmail.com"
+touch README.md
+git commit
+git remote add origin https://github.com/Jossic/projects.git
+git push -u origin master
+ld
+git commit -m fin du 24
+git commit -m "fin du 24"
+cd dom
+cd exerc
+cd Exercices\
+git commit -m "exo 25"
+cd "Jonas Schmedtmann\
+git clone https://github.com/jonasschmedtmann/complete-javascript-course.git
+cd 20
+cd 20WebProjects\
+git clone https://github.com/bradtraversy/vanillawebprojects.git
+cd ../..
+git commit -m "apres import repo"
+git commit -m "fin 25"
+cd Believemy\
+cd DOM\
+cd ../../..
+git commit -m "Fin journée du 26"
+git commit -m "Juste prix fini"
+git commit -m "fin 27 mars"
+git commit -m "Projet gaming terminé"
+git commit -m "fin projet meteo"
+cd wamp64\www\training\
+git commit -m "fin jquery"
+git commit -m "fin Belivemy"
+cd ..\wamp64\www
+git commit -m "29/03/2020"
+git commit -m "fin coin move"
+git commit -m "init chrono"
+git commit -m "Fin chrono"
+git commit -m "movie fight start"
+git commit -m "update movie fight"
+git commit -m "update"
+git commit -m "update fin 07/04"
+git satuts
+git commit -m "fin 261"
+git commit -m "fin movie fight"
+git commit -m "maze start"
+git commit -m "maze 273"
+git commit -m "maze 276"
+git commit -m "fin 284"
+git commit -m "fin 288"
+git commit -m "fin 295"
+git commit -m "fin 299"
+git commit -m "fin maze"
+git commit -m "init message"
+git commit -m "message fin 306"
+git commit -m "message fin 308"
+git commit -m "message fin"
+node -v
+node.exe 
+npm install --global --production windows-build-tools
+cd ..\wamp64\www\
+cd "Colt Steele\
+cd node
+git commit -m "denut node"
+node --inspect=127.0.0.1:9230
+open chrome://inspect
+open.
+node inspect index.js 
+node --inspect index.js 
+cd "..\wamp64\www\training\JavaScript\Colt Steele\node\
+cd list\
+nls
+git commit -m "list node"
+cd ..\watchit\
+git commit -m "debut watchit"
+whatchit
+cd watchit\
+npm link
+npm install chokidar
+npm install lodash.debounce
+npm install caporal
+git commit -m "fin 343"
+watchit pjgoiehb
+git commit -m "fin 345"
+watchit
+git status 
+commit -m "fin 349"
+git commit -m "fin 349"
+npm init -y
+npm install express nodemon
+git commit -m "init ecomm"
+git commit -m "fin 356"
+git commit -m "fin 359"
+cd www\
+cd "JavaScript\Colt Steele\
+cd repositories\
+node
+node users.js
+npm install cookie-session
+git commit -m "fin 380"
+git commit -m "fin 383"
+git commit -m "fin 386"
+npm install express-validator
+git commit -m "fin 392"
+git commit -m "fin 395"
+cd ecomm\
+git commit -m "fin 397"
+git commit -m "fin 404"
+git commit -m "fin 406"
+git commit -m "fin 408"
+npm install multer
+git commit -m "fin 411"
+git commit -m "fin 412"
+git commit -m "fin 414"
+git commit -m "fin 417"
+git commit -m "fin 421"
+git commit -m "fin 425"
+git commit -m "fin 426"
+npm run dev
+git commit -m "fin 431"
+git commit -m "fin 436"
+git commit -m "fin ecomm"
+cd ..\wamp64\www\training\
+git commit -m "drum kit a faire"
+pwd
+cd JavaScript\
+cd exercices\
+mkdir nodeTest
+cd nodeTest\
+touch index.js
+npm install superheroes
+node index.js
+git commit -m "test node"
+mkdir my-express-server
+mkdir angela
+cd angela\
+mkdir express-server
+cd express-server\
+touch server.js
+code server.js 
+npm install -g nodemon
+node server.js 
+nodemon server.js
+mkdir calculator
+cd calculator\
+touch calculator.js
+npm install express
+git commit -m "fin 243"
+npm install body-parser
+nodemon calculator.js 
+git commit -m "fin calculator"
+git commit -m "fin 348"
+cd JavaScript\angela\
+mkdir WeatherApp
+cd WeatherApp\
+git commit -m "weather app start"
+mkdir signupNews
+cd signupNews\
+touch app.js signup.html succes.html failure.html
+npm i express
+npm i body-parser
+npm i request
+git commit -m "début mailing"
+git commit -m 'fin newsletter'
+git commit -m "fin newsletter"
+cd ..
+mkdir toDoList
+touch toDoList toDoList-v1
+cd toDoList-v1\
+touch index.html app.js
+npm init
+npm i express body-parser
+code .
+npm i ejs
+git commit -m "set todolist"
+git commit -m "fin 278"
+cd..
+cd training\
+git commit -m "fin 281"
+git commit -m "fin todolist v1"
+cd ..\training\
+cd ejs-challenge\
+ls
+npm install
+git status
+git commit -m "fin 307"
+npm i lodash
+git commit -m "fin 321"
+git commit -m "fin 323"
+git push
+git init
+nodemon app.js 
+git add .
