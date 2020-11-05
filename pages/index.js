@@ -9,8 +9,11 @@ import Footer from '../components/Footer';
 import { getMovies } from '../actions';
 
 const Home = () => {
+  const [movies, setMovies] = useState([])
 
-  const MOVIE_DATA = getMovies()
+  getMovies().then((movies) => {
+    setMovies(movies)
+  })
 
   return (
     <div>
@@ -35,7 +38,7 @@ const Home = () => {
             <div className="col-lg-9">
               <Carousel />
               <div className="row">
-                <MovieList movies={MOVIE_DATA} />
+                <MovieList movies={movies} />
               </div>
             </div>
           </div>
