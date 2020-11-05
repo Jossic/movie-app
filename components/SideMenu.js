@@ -11,8 +11,7 @@ const SideMenu = ({ count, appName, clickHandler }) => {
                 <a href="#" className="list-group-item">Category 3</a>
             </div>
             <div>
-                <button onClick={clickHandler} className='btn btn-dark'>Cliquer sur moi</button>
-                <h1>{count}</h1>
+
             </div>
         </>
     )

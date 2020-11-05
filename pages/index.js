@@ -5,20 +5,11 @@ import SideMenu from '../components/SideMenu';
 import Carousel from '../components/Carousel';
 import MovieList from '../components/MovieList';
 import Footer from '../components/Footer';
+import MOVIE_DATA from '../ressources/1_data'
 
 const Home = () => {
-  const [count, setCount] = useState(0)
 
 
-  const increment = () => {
-    const plus = count + 1
-    setCount(plus)
-  }
-
-  const decrement = () => {
-    const moins = count - 1
-    setCount(moins)
-  }
   return (
     <div>
       <Head>
@@ -32,19 +23,17 @@ const Home = () => {
       <Navbar />
       <div className='home-page'>
         <div className="container">
-          <button onClick={increment} className='btn btn-primary'>+ num</button>
-          <button onClick={decrement} className='btn btn-primary'>- num</button>
           <div className="row">
             <div className="col-lg-3">
               <SideMenu
                 appName={'Baby-Hoshi'}
-                clickHandler={() => console.log('click click click')}
-                count={count} />
+              // clickHandler={() => console.log('click click click')}
+              />
             </div>
             <div className="col-lg-9">
               <Carousel />
               <div className="row">
-                <MovieList count={count} />
+                <MovieList movies={MOVIE_DATA} />
               </div>
             </div>
           </div>
