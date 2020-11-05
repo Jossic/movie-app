@@ -6,8 +6,13 @@ import Footer from '../components/Footer';
 
 class MovieApp extends App {
 
+  static async getInitialProps(appContext) {
+    const appProps = await App.getInitialProps(appContext)
+    return { ...appProps }
+  }
+
   render() {
-    const { Component } = this.props
+    const { Component, pageProps } = this.props
     return (
       <>
         <Head>
@@ -19,7 +24,7 @@ class MovieApp extends App {
         </Head>
         <Navbar />
         <div className='base-page'>
-          <Component />
+          <Component {...pageProps} />
         </div>
         <Footer />
         <style jsx>{`
