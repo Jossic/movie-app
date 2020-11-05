@@ -32,9 +32,9 @@ export const getMovies = () => {
 
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            // resolve(MOVIE_DATA)
-            reject('Impossible de donner les infos')
-        }, 1000);
+            resolve(MOVIE_DATA)
+            // reject('Impossible de donner les infos')
+        }, 50);
     })
 
 
