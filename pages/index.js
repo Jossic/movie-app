@@ -5,10 +5,12 @@ import SideMenu from '../components/SideMenu';
 import Carousel from '../components/Carousel';
 import MovieList from '../components/MovieList';
 import Footer from '../components/Footer';
-import MOVIE_DATA from '../ressources/1_data'
+
+import { getMovies } from '../actions';
 
 const Home = () => {
 
+  const MOVIE_DATA = getMovies()
 
   return (
     <div>
