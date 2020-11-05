@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Navbar from '../components/Navbar';
 import SideMenu from '../components/SideMenu';
@@ -11,9 +11,13 @@ import { getMovies } from '../actions';
 const Home = () => {
   const [movies, setMovies] = useState([])
 
-  getMovies().then((movies) => {
-    setMovies(movies)
-  })
+  useEffect(() => {
+    getMovies().then((movies) => {
+      setMovies(movies)
+    })
+  }, [])
+
+
 
   return (
     <div>
