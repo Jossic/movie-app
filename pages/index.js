@@ -7,7 +7,7 @@ import MovieList from '../components/MovieList';
 
 import { getMovies } from '../actions';
 
-const Home = ({ movies }) => {
+const Home = ({ movies, images }) => {
 
 
   return (
@@ -23,7 +23,7 @@ const Home = ({ movies }) => {
               />
             </div>
             <div className="col-lg-9">
-              <Carousel />
+              <Carousel images={images} />
               <div className="row">
                 <MovieList movies={movies || []} />
               </div>
@@ -31,19 +31,20 @@ const Home = ({ movies }) => {
           </div>
         </div>
       </div>
-
-
-
-
     </div>
   )
 }
 
 Home.getInitialProps = async () => {
   const movies = await getMovies()
+  const images = movies.map((movie) => ({
+    id: `image-${movie.id}`,
+    image: movie.image
+  }))
 
   return {
-    movies
+    movies,
+    images
   }
 }
 // class Home extends React.Component {
