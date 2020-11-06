@@ -31,6 +31,27 @@ const MOVIE_DATA = [
     }
 ]
 
+const CATEGORY_DATA = [
+    { id: '1', name: 'drama' },
+    { id: '2', name: 'action' },
+    { id: '3', name: 'comedie' },
+    { id: '4', name: 'sci-fi' },
+    { id: '5', name: 'romantique' },
+    { id: '6', name: 'animation' },
+    { id: '7', name: 'enfants' },
+]
+
+export const getCategories = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(CATEGORY_DATA)
+            // reject('Impossible de donner les infos')
+        }, 50);
+    })
+}
+
+
+
 export const getMovies = () => {
 
     return new Promise((resolve, reject) => {

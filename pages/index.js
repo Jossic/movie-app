@@ -5,9 +5,9 @@ import Carousel from '../components/Carousel';
 import MovieList from '../components/MovieList';
 
 
-import { getMovies } from '../actions';
+import { getMovies, getCategories } from '../actions';
 
-const Home = ({ movies, images }) => {
+const Home = ({ movies, images, categories }) => {
 
 
   return (
@@ -19,7 +19,7 @@ const Home = ({ movies, images }) => {
             <div className="col-lg-3">
               <SideMenu
                 appName={'Movie DB'}
-              // clickHandler={() => console.log('click click click')}
+                categories={categories}
               />
             </div>
             <div className="col-lg-9">
@@ -37,6 +37,7 @@ const Home = ({ movies, images }) => {
 
 Home.getInitialProps = async () => {
   const movies = await getMovies()
+  const categories = await getCategories()
   const images = movies.map((movie) => ({
     id: `image-${movie.id}`,
     url: movie.image,
@@ -45,7 +46,8 @@ Home.getInitialProps = async () => {
 
   return {
     movies,
-    images
+    images,
+    categories
   }
 }
 // class Home extends React.Component {
