@@ -30,7 +30,9 @@ const Modal = (props) => {
                         </div>
                         <div className="modal-footer">
                             <button ref={(element) => closeButton = element} type="button" className="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                            <button onClick={submitModal} type="button" className="btn btn-primary">Valider</button>
+                            {props.hasSubmit &&
+                                <button onClick={submitModal} type="button" className="btn btn-primary">Valider</button>
+                            }
                         </div>
                     </div>
                 </div>

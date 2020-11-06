@@ -53,7 +53,6 @@ export const getCategories = () => {
 
 
 export const getMovies = () => {
-
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(MOVIE_DATA)
@@ -63,11 +62,20 @@ export const getMovies = () => {
 }
 
 export const getMovieById = (id) => {
-
     return new Promise((resolve, reject) => {
         const movieIndex = MOVIE_DATA.findIndex(m => m.id === id)
         const movie = MOVIE_DATA[movieIndex]
 
         setTimeout(() => resolve(movie), 50)
+    })
+}
+
+export const createMovie = (movie) => {
+    return new Promise((resolve, reject) => {
+        MOVIE_DATA.push(movie)
+        setTimeout(() => {
+            resolve(MOVIE_DATA)
+            // reject('Impossible de donner les infos')
+        }, 50);
     })
 }
