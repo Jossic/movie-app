@@ -33,7 +33,7 @@ class MovieList extends React.Component {
                                 <small className="text-muted">{movie.rating}</small>
                             </div>
                         </div>
-                    </div >)
+                    </div>)
                 )
 
                 }
