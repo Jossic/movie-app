@@ -30,13 +30,10 @@ git commit -m "Premier commit
 git remote add origin https://github.com/Jossic/training.git
 git commit -m 'Ajout README'
 git commit -m "Ajout README"
-cd Projets\
 git config --global user.name "Jossic"
 git config --global user.email "jossic.lapierre@gmail.com"
 touch README.md
-git commit
 git remote add origin https://github.com/Jossic/projects.git
-git push -u origin master
 ld
 git commit -m fin du 24
 git commit -m "fin du 24"
@@ -49,12 +46,9 @@ git clone https://github.com/jonasschmedtmann/complete-javascript-course.git
 cd 20
 cd 20WebProjects\
 git clone https://github.com/bradtraversy/vanillawebprojects.git
-cd ../..
 git commit -m "apres import repo"
-git commit -m "fin 25"
 cd Believemy\
 cd DOM\
-cd ../../..
 git commit -m "Fin journée du 26"
 git commit -m "Juste prix fini"
 git commit -m "fin 27 mars"
@@ -92,7 +86,6 @@ node.exe
 npm install --global --production windows-build-tools
 cd ..\wamp64\www\
 cd "Colt Steele\
-cd node
 git commit -m "denut node"
 node --inspect=127.0.0.1:9230
 open chrome://inspect
@@ -118,7 +111,6 @@ watchit
 git status 
 commit -m "fin 349"
 git commit -m "fin 349"
-npm init -y
 npm install express nodemon
 git commit -m "init ecomm"
 git commit -m "fin 356"
@@ -126,7 +118,6 @@ git commit -m "fin 359"
 cd www\
 cd "JavaScript\Colt Steele\
 cd repositories\
-node
 node users.js
 npm install cookie-session
 git commit -m "fin 380"
@@ -137,7 +128,6 @@ git commit -m "fin 392"
 git commit -m "fin 395"
 cd ecomm\
 git commit -m "fin 397"
-git commit -m "fin 404"
 git commit -m "fin 406"
 git commit -m "fin 408"
 npm install multer
@@ -148,14 +138,11 @@ git commit -m "fin 417"
 git commit -m "fin 421"
 git commit -m "fin 425"
 git commit -m "fin 426"
-npm run dev
 git commit -m "fin 431"
-git commit -m "fin 436"
 git commit -m "fin ecomm"
 cd ..\wamp64\www\training\
 git commit -m "drum kit a faire"
 pwd
-cd JavaScript\
 cd exercices\
 mkdir nodeTest
 cd nodeTest\
@@ -165,7 +152,6 @@ node index.js
 git commit -m "test node"
 mkdir my-express-server
 mkdir angela
-cd angela\
 mkdir express-server
 cd express-server\
 touch server.js
@@ -182,45 +168,29 @@ npm install body-parser
 nodemon calculator.js 
 git commit -m "fin calculator"
 git commit -m "fin 348"
-cd JavaScript\angela\
 mkdir WeatherApp
 cd WeatherApp\
 git commit -m "weather app start"
 mkdir signupNews
 cd signupNews\
 touch app.js signup.html succes.html failure.html
-npm i express
-npm i body-parser
 npm i request
 git commit -m "début mailing"
 git commit -m 'fin newsletter'
 git commit -m "fin newsletter"
-cd ..
 mkdir toDoList
 touch toDoList toDoList-v1
 cd toDoList-v1\
 touch index.html app.js
-npm init
 npm i express body-parser
-code .
-npm i ejs
 git commit -m "set todolist"
 git commit -m "fin 278"
-cd..
-cd training\
 git commit -m "fin 281"
 git commit -m "fin todolist v1"
-cd ..\training\
 cd ejs-challenge\
-ls
-npm install
 git commit -m "fin 307"
-npm i lodash
 git commit -m "fin 321"
 git commit -m "fin 323"
-git push
-git init
-nodemon app.js 
 git commit -m "fin ejs project"
 cd ~
 touch .bash_profile
@@ -230,7 +200,741 @@ alias mongo="/c/Program\ Files/MongoDB/Server/4.2/bin/mongo.exe"
 alias mongod="C:\Program Files\MongoDB\Server\4.2\bin\mongod.exe"
 alias mongo="C:\Program Files\MongoDB\Server\4.2\bin\mongo.exe"
 mongo --version
+git commit -m "fin 346"
+cd C:\wamp64\www\training\JavaScript\angela\testMongoDB
+npm i mongodb
+git commit -m "init testmongoDB"
+git commit -m "fin 352"
+cd angela\
+cd testMongoDB\
+git commit -m "fin 353"
+cd ..\toDoList-v2
+git commit -m "fin 361"
+npm i lodash
+cd ..\ejs-challenge\
+git commit -m "debut 374"
+git commit -m "378"
+git commit -m "fin 23/04/2020"
+mkdir wiki-API
+cd wiki-API\
+npm i body-parser mongoose ejs express
+touch app.js
+code app.js 
+git commit -m "init wiki"
+git commit -m "fin 385"
+git commit -m "fin 388"
+git commit -m "fin 396"
+git commit -m "init secret"
+nom init -y
+npm i express body-parser ejs mongoose
+cd "auth clone\
+git clone https://github.com/londonappbrewery/Authentication-Secrets
+git log
+cd "JavaScript\angela\auth clone\
+git checkout 7078af837299a4ff50121d67afe17d9fa522ec68 .
+git commit -m "fin 25/04"
+cd secrets\
+cd C:\wamp64\www\training\JavaScript\angela\secrets
+npm i mongoose-encryption
+touch .env
+touch .gitignore
+git push -u origin master
+git commit -m "fin 400"
+npm install md5
+git commit -m "fin 402"
+sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+command -v nvm
+nvm --version
+nvm install
+nvm install 12.16.2
+node
+npm --version
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.3/install.sh | bash
+nvm install node
+npm -version
+cd ..\training\JavaScript\angela\secrets\
+npm install bcrypt
+git commit -m "fin 404"
+npm i passport passport-local passport-local-mongoose express-session
+git commit -m "fin authentif lvl 5"
+npm install passport-google-oauth20
+npm i mongoose-findorcreate
+git commit -m "fin secrets"
+cd JavaScript\angela\
+npx create-react-app mon-app
+git commit -m "init React"
+nodemon src\index.js 
+git commit -m "fin 430"
+cd react-props-practice\
+cd mapping-components-practice\
+git commit -m "init emoji"
+git commit -m "fin emoji app"
+git commit -m "fin 436"
+cd JavaScript\angela\React\
+cd mon-app\
+git commit -m "fin keeper p2"
+git commit -m "pause react"
+cd JavaScript\20WebProjects\
+cd 20WebProjects\projects\
+mkdir formValidator
+cd formValidator\
+touch index.html style.css script.js
+git commit
+git commit -m "init projets 20vanillajs"
+cd ..\training\JavaScript\
+mkdir jeremy
+cd jeremy\
+git clone https://github.com/javascriptdezero/coding-dojo
+cd coding-dojo\
+cd 00-facile\
+mkdir yeoman
+cd yeoman\
+npm i yo
+npm install -g generator-webapp
+npm install -g yo
+yo webapp
+npm home generator-webapp
+cd gites\
+code
+mkdir wao
+node --v
+node --version
+npm cache verify
+npm init
+npm install express ejs
+cd views\
+touch brinchette.ejs lauberoye.ejs petitNay.ejs contact.ejs
+touch simulation.ejs reservation.ejs
+node app.js 
+nodemon app.js
+git commit -m "init projet wao"
+git remote -v
+git commit -m "modif contact"
+git commit -m "modif manola"
+npm install eslint
+npx eslint --init
+npx eslint app.js 
+git commit -m "maj manola.ejs carousel bloqué"
+git commit -m "update manola"
+git commit -m "ajout calendrier manola"
+git commit -m "modif manola avec sidebar"
+git commit -m "fin maj 3 gites"
+cd ..\
+git commit -m "fin paga garde + init admin"
+cd Projets\
+ls wao\
+npm install mongoose Passport passport-google-oauth passport-google-oauth2 passport-local-mongoose mongoose-findorcreate express-session
+npm install mongoose passport passport-google-oauth passport-google-oauth2 passport-local-mongoose mongoose-findorcreate express-session
 mongod
+mongodb
+npm install dotenv
+git commit -m "ajout register/login/connexion google"
+git commit -m "début panel"
+git commit -m "update admin"
+nodemon app.js 
+git commit -m "bug export"
+cd ..\..\training\
+git commit -m "projet js"
+git commit -m "fin liste livres"
+cd JavaScript\
+cd gaston\
+cd site
+mkdir siteServeur
+npm i -y
+npm ibit -y
+npm init -y
+touch serveur.js
+npm i express
+nodemon serveur.js 
+npm i morgan
+npm i twig
+git commit -m "fin 33-routage"
+npm i mongoose
+git commit -m "fin 46"
+cd ..\training\JavaScript\gaston\
+npm i body-parser
+npm i express-session
+git commit -m "fin 54 gestion erreur"
+git commit -m "ajout upload images"
+git commit -m "mise en place archi mvc et fin 60"
+git commit -m "ajout auteur"
+git commit -m "fin 69"
+git commit -m "fin fin 70"
+cd JavaScript\gaston\
+cd siteServeur\
+git commit -m "fin cours gaston"
+mkdir node
+cd node
+mkdir max
+git commit -m "init max"
+cd node\max\shop\
+npm install
+npm i ejs
+git commit -m "init shop max"
+git commit -m "fin 108"
+git commit -m "fin 116"
+git commit -m "fin 121"
+git commit -m "fin 122"
+cd node\
+cd max\shop\
+git commit -m "ajout suppression prod"
+cd mern\
+cd max\
+cd mern-project\
+cd frontend\
+cd backend\
+npm i
+git commit -m "init mern project"
+ c ../../..
+mkdir react
+cd react\
+mkdir tuto
+cd tuto\
+npx create-react-app morpion
+cd morpion\
+git commit -m "immutabilité react"
+cd react\tuto\morpion\
+git commit -m "fin morpion"
+.code
+git commit -m "ajout formulaire reservation"
+git commit -m "ajout modal-deffectueux"
+git commit -m "ajout route post reservation"
+git commit -m "erreur sur postReservation"
 mongo
+git commit -m "ajout mes reservations"
+git commit -m "ajout liste des réservations"
+npm install moment
+git commit -m "modif date arrivee et depart pour afficher format jj/mm/aaaa non terminé"
+git ad .
+git commit -m "ajout page ma reservation, erreur à corriger affichage css"
+git commit -m "update routes"
+git commit -m "update consultation d'une location"
+git commit -m "ajout nav-tabs page une reservation"
+git commit -m "ajout données client dans partie reservation"
+git commit -m "ajout info location dans ma reservation"
+git commit -m "soucis sur nbPersonnes qui ne s'affiche pas"
+git commit -m "update nombre de personne dans ma reservation ok"
+git commit -m "ajout rensignement sur res: ajout note et modif status et date de confirm"
+git commit -m "Correction updateOne pour le status"
+git commit -m "modif nouvel res > res confirmée"
+git commit -m "Ajout Etat et date contrat dans liste des réservations"
+git-clone https://github.com/tastejs/todomvc/tree/gh-pages/examples/vanilla-es6
+git clone https://github.com/tastejs/todomvc/tree/gh-pages/examples/vanilla-es6
+git clone https://github.com/Jossic/todomvc.git
+git commit -m "début construction admin gite"
+git commit -m "update routes gites"
+git commit -m "bug sur route dossier views ok mais dossier public pas ok"
+cd ../pr
+git commit -m "ajout formulaire ajout gîte"
+git commit -m "modifs routes dans admin"
+git commit -m "Nettoyage"
+git commit -m "update page liste des gîtes"
+git commit -m "ajouter gestion des pages"
+git commit -m "reroutage + modif model gite pour intégrer les éléments de la page gîte"
+git commit -m "ajout form modifSiteGite et commentaire"
+git commit -m "modif formulaire mise en place multi partie"
+npm i multer
+git commit -m "ajout formulaire insertion images + update formulaire"
+git commit -m "erreur sur fonction hide pour formulaire multipartie"
+git commit -m "correction jquery slim"
+git commit -m "formulaire ok"
+git commit -m "update formulaire ajout page"
+cd ..\Projets\\wao\
+git commit -m "ajout liste gîtes dans formulaire"
+git commit -m "ajout logo form + mise en forme "
+cd wao\
+git commit -m "update formulaire ajout gîte pour gérer les équipements"
+git commit -m "début modif partie vitrine pour ajouter page gite dynamique, menu ok"
+git commit -m "affichage page gîte"
+git commit -m "erreur sur vue liste des equipements"
+git commit - "update formulaire liste des equips"
+git commit -m "update formulaire liste des equips"
+git commit -m "modif boucle gestion des gites"
+git commit -m "nettoyage"
+git commit -m "corrections des problèmes d'affichages"
+git commit -m "ajout seconde boucle, non fonctionnelle"
+cd ..\Projets\
+git commit -m "boucle gestion gite ajustée"
+cd ..\Projets\wao\
+cd "Fondamentaux js sans framework\
+cd "exo 1\
+cd c: 
+cd ../../..
+git commit -m "ini exos mathieu Gaston"
+cd..
+cd GASTON\
+cd "créer une app js\
+CD ../..
+GIT INIT
+git commit -m "init projet"
+git commit -m "init serveur express"
+git commit -m "fin etape 1"
+git commit -m "fin etape 2"
+git commit -m "fin etape 3"
+git commit -m "fin etape 4"
+git commit -m "fin etape 5"
+git commit -m "fin etape 6"
+git commit -m "fin etape 6-2"
+git commit -m "fin etape 7"
+git commit -m "fin exo 1"
+git commit -m "fin exo 2"
+git commit -m "fin exo 4"
+git commit -m "init calculatrice"
+cd ..\Projets\gites\
+cd ..\wao\
+cd ..\training\GASTON\
+mkdir React
+cd React\
+mkdir cours
+cd cor
+npx create-react-app cours
+cd courds
+git commit -m "init cours react"
+git commit -m "coucou"
+cd ..\training\GASTON\React\
+cd cours\
+git commit -m "fin cours composants"
+git commit -m "fin composants complexes"
+git commit -m "fin composants composants dans composants"
+git commit -m "fin passage info"
+git commit -m "fin classes"
+git commit -m "fin principe states"
+git commit -m "fin cycle de vie"
+cd training\
+git commit -m "fin horloge et setState"
+git commit -m "fin setState"
+git commit -m "fin reorganisation code"
+git commit -m "fin css dans React"
+git commit -m "fin structuration CSS"
+git commit -m "fin event clic bouton"
+git commit -m "fin event"
+git commit -m "fin children"
+git commit -m "fin map"
+git commit -m "fin cours react"
+npx create-react-app projet1
+cd projet1\
+npm start
+git commit -m "init projet 1"
+git commit -m "fin création titre"
+git commit -m "fin ajout des boutons"
+git commit -m "fin ajout liste des livres"
+git commit -m "Liste des livres"
+git commit -m "Liste des livres dynamique"
+git commit -m "Ajout fonction suppression"
+git commit -m "Ajout formulaire titre du livre"
+git commit -m "fin création ajout formulaire"
+git commit -m "fin soumission formulaire"
+git commit -m "fin ajout livre dans state"
+git commit -m "fin ajout livre"
+git commit -m "fin modification d'un livre"
+git commit -m "fin composant alerte"
+git commit - m "fin form formik"
+git commit -m "fin form formik"
+git commit -m "validation donnée formik"
+git commit -m "Fin module yup"
+git commit -m "init projet2"
+git commit -m "fin composant createurPersonnage"
+git commit -m "fin composant imagePerso"
+git commit -m "fin composant fleche"
+git commit -m "fin changement image"
+git commit -m "fin point carac"
+git commit -m "fin ajout boutons carac"
+git commit -m "fin maj point carac"
+git commit -m "fin affichage des armes"
+git commit -m "fin selection arme"
+git commit -m "fin créer et reini"
+git commit -m "fin axios et firebase"
+git commit -m "fin enregistrement perso"
+git commit -m "fin lister persos"
+git commit -m "fin projet 2"
+git commit -m "init projet 3"
+git commit -m "fin utilisation api rest"
+git commit -m "fin filtre"
+git commit -m "fin pagination"
+git commit -m "fin react routeur"
+git commit -m "fin navbar"
+git commit -m "fin afficher un pays 1"
+git commit -m "fin afficher un pays 2"
+git commit -m "fin erreur 404"
+git commit -m "fin param navlink"
+git commit -m "init MERN"
+git commit -m "init bd"
+git commit -m "fin routes files"
+git add MERN/Brad/DevConnector
+git commit -a
+git add 
+git add MERN
+git rm -rf --cached MERN/Brad/DevConnector
+git restore --stage MERN/Brad/DevConnector
+git commit -m "fin user model"
+git commit -m "fin enregistrement user"
+git rm --cached MERN/Brad/DevConnector
+git commit -m "fin json token"
+git commit -m "fin 13"
+git commit -m "fin 14"
+git commit -m "fin 15"
+git commit -m "fin 16"
+git commit -m "fin 17"
+git commit -m "fin 18"
+git commit -m "fin 19"
+git commit -m "fin 20"
+git commit -m "fin 21"
+git commit -m "fin 22"
+git commit -m "fin 23"
+git commit -m "fin 24"
+git commit -m "fin 25"
+git commit -m "fin 26"
+git commit -m "fin 27"
+git commit -m "fin 28"
+git commit -m "fin 31"
+git commit -m "fin 32"
+git commit -m "fin 33"
+git commit -m "fin 34"
+git commit -m "fin 35"
+git commit -m "fin 37"
+git commit -m "fin 38"
+git commit -m "fin 39"
+git commit -m "fin 40"
+git commit -m "fin 41"
+git commit -m "fin 42"
+git commit -m "fin 43"
+git commit -m "fin 44"
+git commit -m "fin 45"
+git commit -m "fin 47"
+git commit -m "fin 48"
+git commit -m "fin 49"
+git commit -m "fin 50 - 7.30"
+git commit -m "fin 50"
+git commit -m "fin 51"
+git commit -m "fin 52"
+git commit -m "fin 53"
+git commit -m "erreur sur 54"
+git commit -m "fin 54"
+git commit -m "fin 55"
+git commit -m "fin 56"
+git commit -m "fin 57"
+git commit -m "fin 58"
+git commit -m "fin 59"
+git commit -m "fin 61"
+git commit -m "fin 62"
+git commit -m "fin 63"
+git commit -m "fin 64"
+git commit -m "fin 65"
+git commit -m "fin 66"
+git commit -m "fin 67"
+git commit -m "fin 68"
+git commit -m "fin 70"
 git status
+git commit -m "fin 73"
+git push --set-upstream origin main
+git checkout better_branch
+git checkout master
+git commit -m "state avec hooks"
+n
+git commit -m "ajout composant menu"
+git commit -m "ajout composant contact"
+git commit -m 'maj cours Enzo'
+git commit -m "maj cours Enzo"
+git commit -m "init projet mahmoud"
+git commit -m "init projet github-finder"
+git commit -m "fin clean up"
+git commit -m "fin 9 expression et component"
+git commit -m "fin 10 Comp, props et propTypes"
+git commit -m "fin 11 - state component"
+git commit -m "fin 12 - Liste des contacts"
+git commit -m "fin 13 - Composant stateless"
+git commit -m "fin 14 - Fin requete axios"
+git commit -m "fin 15 - ajout spinner"
+git commit -m "fin 16 - .env variables"
+git commit -m "fin 17 - Event & search component"
+git commit -m "fin 18 - mise en place recherche"
+git commit -m "fin 19 - ajout clear recherche"
+git commit -m "fin 20 - ajout alerte"
+git commit -m "fin 21 - ajout router"
+git commit -m "fin 22 - afficher page d'un util"
+git commit -m "fin 23 - Ajout interface utilisateur"
+git commit -m "fin 24 - Ajout des repos"
+git commit -m "fin 26 - Refactoring Seach en function component"
+git commit -m "fin 27 - Refactoring User + hooks"
+git commit -m "fin 28 - refact App"
+git commit -m "fin 29 - ajout context"
+git commit -m "fin 30 - ajout reducer et action"
+git commit -m "fin 31 - moving user to context"
+git commit -m "fin 32 - Moving repos to context"
+git commit -m "fin 33 - Modif alert context"
+git commit -m "fin 34 - Home & NotFound component"
+npm i -g netlify-cli
+npm i -g --force netlify-cli
+netlify init
+git commit -m "fin 35 - Deploy on Netlify"
+git commit -m "Contact Keeper - Init BackEnd"
+git commit -m "Contact Keeper - 41 - Connect MongoDB To Our App"
+git commit -m "Contact Keeper - 41 - Connect Mongo DB true"
+git commit -m "Contact Keeper - 42 - User Model & Validation"
+git commit -m "Contact Keeper - 43 - Hash Passwords & Register Route"
+git commit -m "Contact Keeper - 44 - Create & Respond With JWT"
+git commit -m "Contact Keeper - 45 - Authenticate Route"
+git commit -m "Contact Keeper - 46 - Auth Middleware & Protecting Routes"
+git commit -m "Contact Keeper - 47 - Contact Model & Get Contacts Route"
+git commit -m "Contact Keeper - 48 - Add Contact Route"
+git commit -m "Contact Keeper - 49 - Contact Update & Delete Routes"
+git commit -m "Contact Keeper - 50 - Setup React & Concurrently"
+git commit -m "Contact Keeper - 51 - Cleanup, Navbar & Router Setup"
+git commit -m "Contact Keeper - 52 - Contacts Context & Global State"
+git commit -m "Contact Keeper - 53 - Contacts & ContactItem Components"
+git commit -m "Contact Keeper - 54 - 8-49"
+git commit -m "Contact Keeper - 54 - ContactForm Component"
+git commit -m "Contact Keeper - 55 - Delete Contact From UI"
+git commit -m "Contact Keeper - 56 - Set & Clear Current Contact"
+git commit -m "Contact Keeper - 57 - Edit & Update Contact Action"
+git commit -m "Contact Keeper - 58 - Contact Filter Form & State"
+git commit -m "Contact Keeper - 59 - Basic Add & Delete Animation"
+git commit -m "Contact Keeper - 60 - Auth Context & Initial State"
+git commit -m "Contact Keeper - 61 - Register & Login forms"
+git commit -m "Contact Keeper - 62 - Alert Context, State & Component"
+git commit -m "Contact Keeper - 63 - User Registration"
+git commit -m "Contact Keeper - 64 - Load User & Set Token"
+git commit -m "Contact Keeper - 65 - User Login"
+git commit -m "Contact Keeper - 66 - Logout & Navbar"
+git commit -m "Contact Keeper - 67 - PrivateRoute Component"
+git commit -m "Contact Keeper - 68 - Add Contact"
+git commit -m "Contact Keeper - 69 - Get & Clear Contacts"
+git commit -m "Contact Keeper - 70 - Delete Contact"
+git commit -m "Contact Keeper - 71 - Update Contact"
+git commit -m "Contact Keeper - Deployement fait"
+git commit -m "it-logger - 75 - React & JSON-Server Setup"
+git commit -m "it-logger - 76 - Materialize Setup"
+git commit -m "it-logger - 77 - SearchBar & Logs Components"
+git commit -m "it-logger - 78 - LogItem & PreLoader Component"
+CD ..\training\
+git commit -m "it-logger - 79 - AddBtn & AddModalLog Components"
+git commit -m "it-logger - 80 - Edit & Tech Modal Components"
+git commit -m "it-logger - 81 - Redux store & Provider Setup"
+git commit -m "it-logger - 82 - Logs Reducers, Actions & Types"
+git commit -m "it-logger - 83 - Connecting Redux To a Component"
+git commit -m "it-logger - 84 - Add Logs"
+git commit -m "it-logger - 85 - Delete Logs"
+git commit -m "it-logger - 86 - Update Logs"
+git commit -m "it-logger - 87 - Search Logs"
+git commit -m "it-logger - 88 - Techs Reducer, Action & Component"
+git commit -m "it-logger - 89 - Tech Options Select Component"
+git commit -m "it-logger - 90 - Add Technicians"
+git commit -m "it-logger - 91 - Delete Tech"
+git commit -m "init cp guess number"
+git commit -m "Module 2 - Generate Random Number"
+git commit -m "Module 2 - Comparer le res au num"
+git commit -m "Module 2 - Isoler dans une fonc"
+git commit -m "Module 2 - Ajout bandeau + - ou gagné"
+git commit -m "Module 2 - Save guess history"
+git commit -m "Module 2 - Restart the game"
+git commit -m "Module 3 - Sort IMDB - Setup project"
+git commit -m "Module 3 - Sort IMDB - Sort by rank"
+git commit -m "Module 3 - Sort IMDB - Sort by id or rank or title"
+git commit -m "Module 3 - Sort IMDB - Helper function"
+git commit -m "Module 4 - DOC like - Create project"
+git commit -m "Module 4 - DOC like - Add bold, italic & underline"
+git commit -m "Module 4 - DOC like - Add text align features"
+mkdir portfolio
+cd portfolio\
+cd ..\training\
+git commit 'Portfolio - Création navbar"
+git commit -m 'Portfolio - Création navbar"
+git commit -m "Portfolio - Création navbar"
+git remote add Portfolio https://github.com/Jossic/Portfolio.git
+git push https://github.com/Jossic/Portfolio.git
+git push --set-upstream https://github.com/Jossic/Portfolio.git master
+git commit -m "Portfolio - Navbar partie CSS"
+git commit -m "Portfolio - Navbar image"
+git commit -m "Portfolio - Ouverture du Menu"
+git commit -m "Portfolio - Media Queries et Animation de la Navbar"
+git commit -m "Portfolio - Partie HTML Accueil"
+git commit -m "Portfolio - Partie Accueil CSS"
+git commit -m "Portfolio - Medias queries accueil"
+. code
+git commit -m "Portfolio - Animation JS Accueil"
+git commit -m "Portfolio - Section présentation CSS"
+git commit -m "Portfolio - Section présentation Medias Queries"
+git commit -m "Portfolio - Section portfolio HTML"
+git commit -m "Portfolio - Section portfolio CSS"
+git commit -m "Portfolio - Section portfolio mediaqueries"
+git commit -m "Portfolio - Section Range HTML"
+git commit -m "Portfolio - Section Range CSS"
+git commit -m "Portfolio - Section Range Media queries"
+git commit -m "Portfolio - Section expérience HTML"
+git commit -m "Portfolio - Section expérience CSS"
+git commit -m "Portfolio - Section expérience Medias queries"
+git commit -m "Portfolio - Section Parallax"
+git commit -m "Portfolio - Section contact HTML"
+git commit -m "Portfolio - Section contact CSS"
+git commit -m "Portfolio - Animation des input"
+cd ..\portfolio\
+git commit -m "Portfolio - Animation de la page d'accueil"
+git commit -m "Portfolio - Animation scrollMagic"
+git commit -m "Portfolio - Animations du Portfolio"
+git commit -m "Portfolio - Animatation de la partie Range et fin"
+mkdir MERNeCom
+cd MERNeCom\
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Jossic/MERNeCom.git
+mkdir n8n
+cd n8n\
+npm install n8n -g
+n8n
+n8n start
+git commit -m "MERN eCom - Init React app"
+ git push --set-upstream origin master
+git commit -m "MERN eCom - 4 - React Setup & Git init"
+git commit -m "MERN eCom - 5 - React-Bootstrap Setup, Header & Footer"
+git commit -m "MERN eCom - 6 - HomeScreen Product Listing"
+git commit -m "MERN eCom - 7 - Rating Component"
+git commit -m "MERN eCom - 8 - Implementing React Router"
+git commit -m "MERN eCom - 9 - Product Details Screen"
+git commit -m "MERN eCom - 11 - Serving Products - Backend routes"
+git commit -m "MERN eCom - 12 - Fetching Products From React (useEffect)"
+git commit -m "MERN eCom - 13 - Nodemon & Concurrently Setup"
+git commit -m "MERN eCom - 14 - Environment Variables"
+git commit -m "MERN eCom - 15 - ES Modules in Node JS"
+git commit -m "MERN eCom - 16 - MongoDB Atlas & Compass Setup"
+git commit -m "MERN eCom - 17 - Connection To The Database"
+git commit -m "MERN eCom - 18 - Adding colors to the Console"
+git commit -m "MERN eCom - 19 - Modeling Our Data"
+git commit -m "MERN eCom - 20 - Preparing Sample Data"
+git commit -m "MERN eCom - 21 - Data Seeder Script"
+git commit -m "MERN eCom - 22 - Fetching Products From The Database"
+git commit -m "MERN eCom - 24 - Custom Error Handling"
+mkdir Shopify
+cd Shopify\
+choco install themekit
+git commit -m "MERN eCom - 26 - Create a Redux Store"
+git commit -m "MERN eCom - 27 - Product List Reducer & Action"
+git commit -m "MERN eCom - 28 - Bringing Redux State into HomeScreen"
+git commit -m "MERN eCom - 29 - Message & Loader Components"
+git commit -m "MERN eCom - 30 - Product Details Reducer & Action"
+git commit -m "MERN eCom - 31 - Qty Select & Add To Cart Button"
+mkdir LaFrench
+cd LaFrench\
+theme get --list -p=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 -s=la-french-vodka-france.myshopify.com
+theme update
+mkdir Prestige
+cd Prestige\
+theme get --password=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 --store=la-french-vodka-france.myshopify.com --themeid=107969282213
+mkdir CopiePrestige
+cd CopiePrestige\
+theme get --password=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 --store=la-french-vodka-france.myshopify.com --themeid=112936747173
+git commit -m "MERN eCom - 32 - Cart Reducer & Add To Cart Action"
+git commit -m "MERN eCom - 33 - Add To Cart Functionality"
+git commit -m "MERN eCom - 34 - Cart Screen"
+git commit -m "MERN eCom - 35 - Remove Items From Cart"
+git commit -m "MERN eCom - 36 - Clean Up By Using Controllers"
+git commit -m "MERN eCom - 37 - User Authentication Endpoint"
+git commit -m "MERN eCom - 39 - Generate a JSON Web Token"
+git commit -m "MERN eCom - 40 - Custom Authentication Middleware"
+git commit -m "MERN eCom - 42 - User Registration & Password Encryption"
+git commit -m "MERN eCom - 43 - User Login Reducer & Action"
+git commit -m "MERN eCom - 44 - User Login Screen & Functionality"
+git commit -m "MERN eCom - 45 - Show User in Navbar & Logout"
+git commit -m "MERN eCom - 46 - User Register Reducer, Action & Screen"
+git commit -m "MERN eCom - 47 - Update Profile Endpoint"
+git commit -m "MERN eCom - 48 - Profile Screen & Get User Details"
+git commit -m "MERN eCom - 49 - infinite loading error"
+git commit -m "MERN eCom - 51 - Shipping Screen & Save Address"
+git commit -m "MERN eCom - 52 - Checkout Steps Component"
+git commit -m "MERN eCom - 53 - Payment Screen & Save Payment Method"
+git commit -m "MERN eCom - 54 - Place Order Screen"
+git commit -m "MERN eCom - 55 - Order Controller & Route"
+git commit -m "MERN eCom - 56 - Create Order"
+git commit -m "MERN eCom - 57 - Get Order by ID Endpoint"
+git commit -m "MERN eCom - 58 - Order Details Reducer & Action"
+git commit -m "MERN eCom - 59-60 - Order Screen"
+git commit -m "MERN eCom - 61 - Update To Paid Endpoint"
+git commit -m "MERN eCom - 62 - Order Pay Reducer & Action"
+git commit -m "MERN eCom - 63 - Adding PayPal Payments"
+git commit -m "MERN eCom - 64 - Show Orders On Profile"
+git commit -m "MERN eCom - 65 - User Details & Orders Reset"
+git commit -m "MERN eCom - 66 - Admin Middleware & Get Users Endpoint"
+git commit -m "MERN eCom - 67 - Admin USer List"
+git commit -m "MERN eCom - 68 - Admin Screen Access Security"
+git commit -m "MERN eCom - 69 - Admin User Delete"
+git commit -m "MERN eCom - 70 - Get User By ID & Update User Endpoint"
+git commit -m "MERN eCom - 71 - User Edit Screen & Get User Details"
+git commit -m "MERN eCom - 72 - Update User Functionnality"
+git commit -m "MERN eCom - 73 - Admin Product List"
+git commit -m "MERN eCom - 74 - Admin Delete Products"
+git commit -m "MERN eCom - 75 - Create & Update Product Endpoint"
+git commit -m "MERN eCom - 76 - Admin Create Product"
+git commit -m "MERN eCom - 77 - Edit Product Screen"
+cd ..\Shopify\
+theme get --list -p=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 -s=baby-hoshi.myshopify.com
+mkdir Baby-Hoshi
+cd Baby-Hoshi\
+mkdir Turbo
+cd Turbo
+theme get --password=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 --store=baby-hoshi.myshopify.com --themeid=114060656807
+ls
+cd ../..
+git commit -m "MERN eCom - 78 - Admin Update Product"
+git commit -m "MERN eCom - 79 - Image Upload Config & Endpoint"
+git commit -m "MERN eCom - 80 - Admin Order List"
+git commit -m "MERN eCom - 81 - Admin Order List"
+git commit -m "MERN eCom - 82 - Mark Order As Delivered"
+git commit -m "MERN eCom - 83 - Morgan & Create Review Endpoint"
+cd ..\MERNeCom\
+git commit -m "MERN eCom - 84 - Front End Product Reviews"
+git commit -m "MERN eCom - 85 - Product Search"
+git commit -m "MERN eCom - 86 - Product Pagination"
+git commit -m "MERN eCom - 87 - Top Products Carousel"
+git commit -m "MERN eCom - 88 - Custom Page Titles & Meta"
+git commit -m "MERN eCom - Prepare for deployement"
+heroku git:remote -a merncom
+git push heroku master
+cd ..
+npx create-next-app movie-app
+npm run dev
+npm install -g npm@7.0.8
+git init
+git commit -m "Init Movie app"
+git branch -M main
+git remote add origin https://github.com/Jossic/movie-app.git
+git push -u origin main
+code .
+git commit -m "movie-app - 4 - Create index page"
+git commit -m "movie-app - 5 - Functionnal Components"
+cd ../
+cd movie-app\
+git commit -m "movie-app - 6 - Class components"
+git commit -m "movie-app - 7 Reusable Components"
+git commit -m "movie-app - 8 - Some basics styles"
+git commit -m "movie-app - 9 - What is the state"
+git commit -m "movie-app - 10 - Let's mutate state"
+git commit -m "movie-app - 11 - Common mistakes with state"
+git commit -m "movie-app - 12 - State of functionnal component"
+git commit -m "movie-app - 13 - What ares props"
+git commit -m "movie-app - 15 - Iterate over list of data"
+git commit -m "movie-app - 16 - Shorten function"
+git commit -m "movie-app - 17 - Move movie data to store"
+git commit -m "movie-app - 18 - Get movie data + Promises"
+git commit -m "movie-app - 19 - UseEffect"
+git commit -m "movie-app - 20 - Get movies in class component"
+git commit -m "movie-app - 21 - Catch error in promise"
+git commit -m "movie-app - 22 - Get initial props"
+git commit -m "movie-app - 23 - More pages, more links"
+git commit -m "movie-app - 24 - App container"
+git commit -m "movie-app - 25 - App container props"
+git commit -m "movie-app - 26 - Detail page of movie"
+cd ..\movie-app\
+git commit -m "movie-app - 27 - Get movie by Id"
+git commit -m "movie-app - 28 - Fix links in detail page"
+git commit -m "movie-app - 29 - Finishes detail page"
+git commit -m "movie-app - 30 - Get images from movies"
+git commit -m "movie-app - 31 - Display cover images"
+git commit -m "movie-app - 32 - Get categories"
+git commit -m "movie-app - 33 - Modal implementation + close modal"
+git commit -m "movie-app - 34 - Form to create movie & containment"
+git commit -m "movie-app - 35 - Get values from the form"
+git commit -m "movie-app - 36 - Handle genre changes"
+git push
+git commit -m "movie-app - 37 - Handle form submit"
 git add .
