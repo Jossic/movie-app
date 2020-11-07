@@ -937,4 +937,5 @@ git commit -m "movie-app - 35 - Get values from the form"
 git commit -m "movie-app - 36 - Handle genre changes"
 git push
 git commit -m "movie-app - 37 - Handle form submit"
+git commit -m "movie-app - 38 - Close Modal & Uncontrolled data functionnality"
 git add .
