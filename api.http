@@ -20,3 +20,13 @@ PATCH http://localhost:3000/api/v1/movies/4g5r4g5r4
 ###
 
 DELETE http://localhost:3000/api/v1/movies/rg5zg54ze5
+
+
+###
+
+POST http://localhost:3000/api/v1/posts
+
+{
+    "id" : "55",
+    "title" : "Mon film"
+}

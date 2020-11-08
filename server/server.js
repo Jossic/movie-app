@@ -84,9 +84,13 @@ app.prepare().then(() => {
         })
     })
 
-    server.get('*', (req, res) => {
-        return handle(req, res)
-    })
+    // server.get('*', (req, res) => {
+    //     return handle(req, res)
+    // })
+
+    // server.post('*', (req, res) => {
+    //     return handle(req, res)
+    // })
 
     const PORT = process.env.PORT || 3000;
 
