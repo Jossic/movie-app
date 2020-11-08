@@ -9,6 +9,11 @@ import { getMovies, getCategories } from '../actions';
 
 const Home = ({ movies, images, categories }) => {
 
+  const [filter, setFilter] = useState('')
+
+  const changeCategory = (category) => {
+    setFilter(category)
+  }
 
   return (
     <div>
@@ -18,12 +23,15 @@ const Home = ({ movies, images, categories }) => {
           <div className="row">
             <div className="col-lg-3">
               <SideMenu
+                activeCategory={filter}
+                changeCategory={changeCategory}
                 appName={'Movie DB'}
                 categories={categories}
               />
             </div>
             <div className="col-lg-9">
               <Carousel images={images} />
+              <h1>Catégorie -> {filter}</h1>
               <div className="row">
                 <MovieList movies={movies || []} />
               </div>
