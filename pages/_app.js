@@ -37,9 +37,6 @@ class MovieApp extends App {
             bottom: 0;
             width: 100%;
             }
-            .container {
-              padding-bottom: 120px;
-            }
 }          `}
         </style>
       </>
