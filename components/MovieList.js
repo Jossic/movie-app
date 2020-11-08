@@ -34,9 +34,12 @@ class MovieList extends React.Component {
                             </div>
                         </div>
                     </div>)
-                )
-
-                }
+                )}
+                <style jsx>{`
+                        img {
+                max-height:150px
+            }
+            `}</style>
             </>
         )
     }

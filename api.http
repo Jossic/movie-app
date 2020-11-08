@@ -1,0 +1,22 @@
+
+POST http://localhost:3000/api/v1/movies
+Content-Type: application/json 
+
+{
+    "id" : "55",
+    "name" : "Mon film",
+    "description" : "MMa desc"
+}
+
+###
+
+GET http://localhost:3000/api/v1/movies
+
+###
+
+PATCH http://localhost:3000/api/v1/movies/4g5r4g5r4
+
+
+###
+
+DELETE http://localhost:3000/api/v1/movies/rg5zg54ze5

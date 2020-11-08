@@ -1,19 +1,25 @@
 import React, { useState } from 'react'
+import { useRouter } from 'next/router';
 import Modal from './Modal';
 import MovieCreateForm from './MovieCreateForm'
 import { createMovie } from '../actions';
 
 const SideMenu = ({ appName, categories }) => {
 
+    const router = useRouter()
+    let modal = null
+
     const handleCreateMovie = (movie) => {
         createMovie(movie).then((movies) => {
             console.log(JSON.stringify(movies))
+            modal.closeModal()
+            router.push('/')
         })
     }
 
     return (
         <>
-            <Modal hasSubmit={false}>
+            <Modal ref={element => modal = element} hasSubmit={false}>
                 <MovieCreateForm handleFormSubmit={handleCreateMovie} />
             </Modal>
             <h1 className="my-4">{appName}</h1>

@@ -31,6 +31,12 @@ const Home = ({ movies, images, categories }) => {
           </div>
         </div>
       </div>
+      <style jsx>{`
+            .container {
+              padding-bottom: 120px;
+            }
+}          `}
+      </style>
     </div>
   )
 }
@@ -71,15 +77,15 @@ Home.getInitialProps = async () => {
 //   // Seulement appelé quand le composant est monté, et seulement sur le client
 //   // componentDidMount() {
 //   //   getMovies().then((movies) => {
-//   //     this.setState({ movies })
+//   //     this.setState({movies})
 //   //   })
 //   //     .catch((error) => {
-//   //       this.setState({ errorMessage: error })
+//   //       this.setState({errorMessage: error })
 //   //     })
 //   // }
 
 //   render() {
-//     const { movies } = this.props
+//     const {movies} = this.props
 //     return (
 //       <div>
 //         <Head>

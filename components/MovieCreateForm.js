@@ -4,8 +4,12 @@ import { useState } from "react"
 const MovieCreateForm = (props) => {
 
     const [form, setForm] = useState({
-        name: 'Some Movie',
-        description: 'test'
+        name: '',
+        description: '',
+        rating: '',
+        image: '',
+        cover: '',
+        longDescription: '',
     })
 
     const handleChange = (e) => {
