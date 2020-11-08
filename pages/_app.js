@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+import '../styles/index.scss'
 
 class MovieApp extends App {
 
@@ -30,13 +31,7 @@ class MovieApp extends App {
         <style jsx>{`
           .base-page {
             padding-top: 60px
-          }    
-          footer {
-            position: fixed;
-            height: 100px;
-            bottom: 0;
-            width: 100%;
-            }
+          }  
 }          `}
         </style>
       </>
