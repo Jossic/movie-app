@@ -9,10 +9,19 @@ import { getMovies, getCategories } from '../actions';
 
 const Home = ({ movies, images, categories }) => {
 
-  const [filter, setFilter] = useState('')
+  const [filter, setFilter] = useState('tous')
 
   const changeCategory = (category) => {
     setFilter(category)
+  }
+
+  const filterMovies = (movies) => {
+    if (filter === 'tous') {
+      return movies
+    }
+    return movies.filter((movie) => {
+      return movie.genre && movie.genre.includes(filter)
+    })
   }
 
   return (
@@ -33,7 +42,7 @@ const Home = ({ movies, images, categories }) => {
               <Carousel images={images} />
               <h1>Catégorie -> {filter}</h1>
               <div className="row">
-                <MovieList movies={movies || []} />
+                <MovieList movies={filterMovies(movies) || []} />
               </div>
             </div>
           </div>
