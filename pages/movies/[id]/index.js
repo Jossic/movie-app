@@ -23,6 +23,7 @@ const Movie = ({ movie }) => {
                 <p className="lead">
                     <button className="btn btn-primary btn-lg" href="#" role="button">En savoir plus</button>
                     <button onClick={() => handleDelete(id)} className="btn btn-danger btn-lg ml-1" href="#" role="button">Supprimer</button>
+                    <button onClick={() => router.push(`/movies/${id}/edit`)} className="btn btn-warning btn-lg ml-1" href="#" role="button">Modifier</button>
                 </p>
             </div>
             <p className='desc-text'>
